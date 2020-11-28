@@ -478,7 +478,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 135504825}
-        m_MethodName: OffFlames
+        m_MethodName: OffnOnFlames
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7733,7 +7733,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 907853671}
-        m_MethodName: OffFlames
+        m_MethodName: OffnOnFlames
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7872,7 +7872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 950245585}
   m_Layer: 0
-  m_Name: Flames
+  m_Name: Flames2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9439,7 +9439,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1522778061}
-        m_MethodName: OffFlames
+        m_MethodName: OffnOnFlames
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10303,13 +10303,13 @@ Transform:
   - {fileID: 1306748244}
   - {fileID: 259842170}
   - {fileID: 1522778058}
+  - {fileID: 2035100072}
   - {fileID: 357499352}
   - {fileID: 1589817738}
   - {fileID: 142025119}
   - {fileID: 1158024464}
   - {fileID: 253791835}
   - {fileID: 2008964424}
-  - {fileID: 2035100072}
   - {fileID: 5266597660362413905}
   - {fileID: 135504822}
   - {fileID: 907853668}
@@ -15712,7 +15712,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1938253369}
   m_Layer: 0
-  m_Name: Flames
+  m_Name: Flames3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15946,7 +15946,7 @@ Transform:
   m_LocalScale: {x: 0.0031041456, y: 0.0035343794, z: 0.0031041456}
   m_Children: []
   m_Father: {fileID: 1731879698}
-  m_RootOrder: 16
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -118.23701, z: 0}
 --- !u!1001 &2052557599
 PrefabInstance:
