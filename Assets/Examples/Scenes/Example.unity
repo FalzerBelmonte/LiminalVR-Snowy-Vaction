@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.0148474015, g: 0.008630973, b: 0.013842266, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -552,8 +552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8066ed3b2e9e4c64f9c11142d910e9c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BuildType: 3
-  EditorType: 3
+  BuildType: 1
+  EditorType: 1
 --- !u!114 &163395152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9854,11 +9854,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
-    - target: {fileID: -8160342919979618982, guid: db484347f14593c41a916999c5201d09,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: eae0c2073eafa2a4e85bd5c1e7e43fdc, type: 2}
     - target: {fileID: -4216859302048453862, guid: db484347f14593c41a916999c5201d09,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9929,6 +9924,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.017162533
       objectReference: {fileID: 0}
+    - target: {fileID: -8160342919979618982, guid: db484347f14593c41a916999c5201d09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eae0c2073eafa2a4e85bd5c1e7e43fdc, type: 2}
     - target: {fileID: -724270141783932088, guid: db484347f14593c41a916999c5201d09,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
